@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="reveal/dist/reset.css">
+		<link rel="stylesheet" href="reveal/dist/reveal.css">
+		<link rel="stylesheet" href="reveal/dist/reveal-override.css">
+		<link rel="stylesheet" href="reveal/dist/theme/white.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="reveal/plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+		<div class="reveal">
+			<div id="myLogo" style="background: url(images/cockroach-good.png);
+                        position: absolute;
+                        background-repeat: no-repeat;
+                        bottom: 10px;
+                        left: 10px;
+                        width: 50px;
+                        height: 60px;">
+             </div>
+		
+			<div class="slides">
+			
+				
+			<section id="cockroachlabs-example-deck" class="content" data-markdown data-background="#E9F4E6" data-state="h2Uppercase">
+                <script type="text/template">
+                    ## Cockroach Labs
+                    ### Example Deck
+                    ![Logo](images/cl_logo_horizontal.svg "Logo")
+                </script>
+            </section>
+
+				<section> 
+                <section data-markdown="01-stubbed-chapter.md"  
+                     data-separator="^---"  
+                     data-separator-notes="^Note:"  
+                     data-charset="iso-8859-15"> 
+                </section> 
+            </section>
+            
+        				
+				<section> 
+                <section data-markdown="02-technical-learning- session.md"  
+                     data-separator="^---"  
+                     data-separator-notes="^Note:"  
+                     data-charset="iso-8859-15"> 
+                </section> 
+            </section>
+
+
+				<section> 
+                <section data-markdown="03-sample-guided-exercise-hello-minikube.md"  
+                     data-separator="^---"  
+                     data-separator-notes="^Note:"  
+                     data-charset="iso-8859-15"> 
+                </section> 
+            </section>
+
+			</div>
+		</div>
+
+		<script src="reveal/dist/reveal.js"></script>
+		<script src="reveal/plugin/notes/notes.js"></script>
+		<script src="reveal/plugin/markdown/markdown.js"></script>
+		<script src="reveal/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				showSlideNumber: 'all',
+				
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,15 @@
+/*!
+* reveal.js 4.0.2
+* https://revealjs.com
+* MIT licensed
+*
+* Copyright (C) 2020 Hakim El Hattab, https://hakim.se
+*/
+.reveal .backgrounds:after {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+  margin: 0;
+  content: url("cockroachdb-logo-png-transparent.png");
+}
