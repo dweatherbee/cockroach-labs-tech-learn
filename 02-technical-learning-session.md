@@ -16,7 +16,6 @@ NOTE:
 
 ---
 
-
 ## Sources from single elements
 
 ``` scala
@@ -35,3 +34,9 @@ val source: Source[String, NotUsed] = Source.repeat(
 	- *Push* a single element and then *complete*.
 - something else
 	- else
+
+---
+
+## Another Mock Diagram
+
+![Mock](images/mock-diagram-2.png "Mock")
