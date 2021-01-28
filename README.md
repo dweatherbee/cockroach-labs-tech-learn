@@ -8,6 +8,6 @@ To run the slides you need to install Node Server:
 
 - execute `./run.sh` (starts Node Server) (in terminal you should see an "available on: http://...." local URL that you can enter into Chrome) 
 - open `index.html` in Chrome for best rendering
-- use arrow key to navigate thru slides
+- use arrow keys to navigate thru slides
 - press `S` to see speakers notes for each slide
 
