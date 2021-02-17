@@ -1,0 +1,103 @@
+/* Cockroach Labs Dark Theme */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+code * {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #F7D6FF;
+}
+
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #0055FF;
+}
+
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #C2D5FF;
+}
+
+.hljs-attribute {
+  color: #C2D5FF;
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #00FCED;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #B921F1;
+}
+
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #dcc6e0;
+}
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  background: #190F33;
+  color: #ffffff;
+  padding: 0.5em;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+@media screen and (-ms-high-contrast: active) {
+  .hljs-addition,
+  .hljs-attribute,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-bullet,
+  .hljs-comment,
+  .hljs-link,
+  .hljs-literal,
+  .hljs-meta,
+  .hljs-number,
+  .hljs-params,
+  .hljs-string,
+  .hljs-symbol,
+  .hljs-type,
+  .hljs-quote {
+        color: highlight;
+    }
+
+    .hljs-keyword,
+    .hljs-selector-tag {
+        font-weight: bold;
+    }
+}
+
+.reveal .hljs.has-highlights tr:not(.highlight-line) {
+  opacity: .4;
+  background-color: transparent;
+}
+.highlight-line {
+  background-color: rgb(0 55 165 / 60%);
+}
