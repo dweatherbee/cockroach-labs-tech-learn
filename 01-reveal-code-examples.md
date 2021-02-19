@@ -1,5 +1,5 @@
-<!-- .slide: data-background="#4CA737" -->
-## Stubbed Section 1
+<!-- .slide: data-background="#00FCED" -->
+## Branded Code Examples et al. 
 
 ---
 
@@ -11,6 +11,8 @@
 - Speaker notes can be included in a PDF render as a separate page after it's corresponding slide   
 
 NOTE:
+
+- data-background="#4CA737"
 - Speaker notes can be the narration script used in a recorded video. The narration script speakers notes can be included in a rendered PDF of the deck. The output PDF is a useful student course book.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget lacus mollis, semper magna tempus, blandit ligula. Mauris sed euismod ante, sed finibus nisl. Mauris gravida consequat dignissim. Phasellus eu rhoncus sem. Morbi in dolor aliquet, maximus libero maximus, ultrices arcu. Aliquam ornare nec eros quis laoreet. Curabitur sit amet posuere lacus. In hac habitasse platea dictumst. Integer mi metus, ultrices non odio quis, gravida placerat enim. Nulla ac dignissim est. Nullam semper vehicula quam, id pulvinar massa ornare nec.
@@ -20,6 +22,11 @@ Nulla eleifend posuere magna in gravida. Duis feugiat pellentesque dolor sit ame
 Phasellus tempor porta odio sed imperdiet. Quisque arcu leo, volutpat id purus eget, ullamcorper elementum massa. Sed a neque a dolor aliquet pretium non non lectus. Etiam leo augue, semper eget ornare eu, euismod ut mauris. Integer orci mauris, egestas id orci non, vehicula gravida leo. Ut iaculis urna dictum tellus egestas, vitae tempus sem mattis. Pellentesque erat odio, congue in laoreet quis, viverra sed metus. Cras sodales lorem erat, in viverra mi euismod vitae. Phasellus leo metus, varius id maximus eu, vulputate ullamcorper erat.
 
 Integer nunc leo, ultrices sit amet risus vel, ultricies faucibus enim. Sed mi lorem, consectetur eget faucibus nec, vestibulum ut elit. Suspendisse potenti. Praesent ut eros ut arcu tincidunt convallis. Curabitur quis dui dignissim, lobortis urna eu, dictum tellus. Vivamus sagittis pulvinar faucibus. Donec placerat a ante porttitor pharetra. Vestibulum sagittis enim id orci consequat tristique. Integer sit amet rutrum nulla, et condimentum felis. Morbi at ipsum enim. Praesent id lacus neque. Cras convallis interdum lectus sit amet fermentum.
+
+---
+
+<!-- .slide: data-background="#C2D5FF" -->
+## Code Examples 
 
 ---
 
@@ -60,24 +67,32 @@ long transferResult =
 
 ## GO example
 
-``` go
+``` go [1-4|9-11|15|19|21-24]
 import (
     "context"
     "fmt"
     "log"
-
     "github.com/cockroachdb/cockroach-go/v2/crdb/crdbpgx"
     "github.com/jackc/pgx/v4"
 )
 
-func transferFunds(ctx context.Context, tx pgx.Tx, from int, to int, amount int) error {
-    // Read the balance.
-    var fromBalance int
-    if err := tx.QueryRow(ctx,
-        "SELECT balance FROM accounts WHERE id = $1", from).Scan(&fromBalance); err != nil {
-        return err
-    }
-
+func transferFunds(ctx context.Context, 
+   tx pgx.Tx, 
+   from int, 
+   to int, 
+   amount int) error {
+    
+      // Read the balance.
+      var fromBalance int
+      if err := tx.QueryRow(
+          ctx,
+          "SELECT balance FROM accounts WHERE id = $1",
+          from)
+          .Scan(&fromBalance); 
+             err != nil {
+              return err
+          }
+   }
 ```
 ---
 
@@ -99,6 +114,11 @@ val source: Source[String, NotUsed] = Source.repeat(
 	- *Push* a single element and then *complete*.
 - something else
 	- else
+
+---
+
+<!-- .slide: data-background="#C2D5FF" -->
+## Random Colored Slide
 
 ---
 
