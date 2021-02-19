@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#4CA737" -->
+<!-- .slide: data-background="#00FCED" -->
 ## Hello Minikube
 ###  Guided Exercise Sample
 
