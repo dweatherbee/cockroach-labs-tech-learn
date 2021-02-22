@@ -1,0 +1,24 @@
+.gradient-1 {
+    background: linear-gradient(90deg, #190F33 0%, #0037A5 48.3%, #6933FF 100%);
+}
+.gradient-2 {
+    background: linear-gradient(90deg, #0037A5 0%, #6933FF 50.38%, #00FCED 100%);
+}
+.gradient-3 {
+    background: linear-gradient(90deg, #0037A5 0%, #6933FF 100%);    
+}
+.gradient-4 {
+    background: linear-gradient(90deg, #6933FF 0%, #00FCED 100%);
+}
+.gradient-5 {
+    background: linear-gradient(90deg, #190F33 0%, rgba(25, 15, 51, 0) 100%);
+}
+.gradient-6 {
+    background: linear-gradient(90deg, #0037A5 0%, rgba(0, 55, 165, 0) 100%);
+}
+.gradient-7 {
+    background: linear-gradient(90deg, #6933FF 0%, rgba(105, 51, 255, 0) 100%);
+}
+.gradient-8 {
+    background: linear-gradient(90deg, #00FCED 0%, rgba(0, 252, 237, 0) 100%);
+}
