@@ -22,3 +22,58 @@
 .gradient-8 {
     background: linear-gradient(90deg, #00FCED 0%, rgba(0, 252, 237, 0) 100%);
 }
+
+.white-h1 h1 {
+    color: white;
+}
+.white-h2 h2 {
+        color: white;
+}
+.white-h3 h3 {
+        color: white;
+}
+.white-h4 h4 {
+        color: white;
+}
+.white-h5 h5 {
+        color: white;
+}
+.white-h6 h6 {
+        color: white;
+}
+.uppercase-h1 h1 {
+        text-transform: uppercase;
+}
+.uppercase-h2 h2 {
+        text-transform: uppercase;
+}
+.uppercase-h3 h3 {
+        text-transform: uppercase;
+}
+.uppercase-h4 h4 {
+        text-transform: uppercase;
+}
+.uppercase-h5 h5 {
+        text-transform: uppercase;
+}
+.uppercase-h6 h6 {
+        text-transform: uppercase;
+}
+.capitalize-h1 h1 {
+        text-transform: capitalize;
+}
+.capitalize-h2 h2 {
+        text-transform: capitalize;
+}
+.capitalize-h3 h3 {
+        text-transform: capitalize;
+}
+.capitalize-h4 h4 {
+        text-transform: capitalize;
+}
+.capitalize-h5 h5 {
+        text-transform: capitalize;
+}
+.capitalize-h6 h6 {
+        text-transform: capitalize;
+}
