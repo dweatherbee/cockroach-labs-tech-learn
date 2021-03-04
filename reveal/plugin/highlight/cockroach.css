@@ -5,11 +5,13 @@ code * {
   font-family: 'Source Code Pro', monospace;
 }
 
+/* Light Purple */
 .hljs-comment,
 .hljs-quote {
   color: #F7D6FF;
 }
 
+/* Action Blue */
 .hljs-variable,
 .hljs-template-variable,
 .hljs-tag,
@@ -21,6 +23,7 @@ code * {
   color: #0055FF;
 }
 
+/* Light Blue */
 .hljs-number,
 .hljs-built_in,
 .hljs-builtin-name,
@@ -32,25 +35,30 @@ code * {
   color: #C2D5FF;
 }
 
+/* Light Blue */
 .hljs-attribute {
   color: #C2D5FF;
 }
 
+
+/* UI Green */
 .hljs-string,
 .hljs-symbol,
 .hljs-bullet,
 .hljs-addition {
-  color: #00FCED;
+  color: #3DEFC4;
 }
 
+/* UI Yellow */
 .hljs-title,
 .hljs-section {
-  color: #B921F1;
+  color: #FFDF8B;
 }
 
+/* UI Red */
 .hljs-keyword,
 .hljs-selector-tag {
-  color: #dcc6e0;
+  color: #FF7595;
 }
 
 .hljs {
