@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#00FCED" -->
+<!-- .slide: data-state="white-h2 gradient-2" -->
 ## Flyway Schema Migration of CockroachDB Databases
 
 ---
@@ -20,7 +20,7 @@ NOTE:
 Prerequisites (for the video page in the LMS)
 ---
 
-<!-- .slide: data-background="#C2D5FF" -->
+<!-- .slide: data-state="white-h2 gradient-3" -->
 ## Random Colored Slide
 
 ---

@@ -1,6 +1,6 @@
-<!-- .slide: data-background="#00FCED" -->
+<!-- .slide: data-state="white-h2 gradient-2" -->
 ## Hello Minikube
-###  Guided Exercise Sample
+##  Guided Exercise Sample
 
 ---
 <!-- .slide: style="text-align: left;"> -->  

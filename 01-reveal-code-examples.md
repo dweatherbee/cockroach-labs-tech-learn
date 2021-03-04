@@ -1,9 +1,9 @@
-<!-- .slide: data-state="gradient-8" -->
-## Branded Code Examples et al. 
+<!-- .slide: data-state="white-h2 gradient-2" -->
+## Branded Code Examples 
 
 ---
 
-## Purpose of Section 1
+## Purpose of Section
 
 - Demo some interesting slides that may not be required for the Technical Learning session
 - For example, this slide contains speaker notes
@@ -25,8 +25,8 @@ Integer nunc leo, ultrices sit amet risus vel, ultricies faucibus enim. Sed mi l
 
 ---
 
-<!-- .slide: data-state="gradient-7" -->
-## Code Examples 
+<!-- .slide: data-state="white-h2 gradient-2" -->
+## The Code 
 
 ---
 
@@ -117,7 +117,7 @@ val source: Source[String, NotUsed] = Source.repeat(
 
 ---
 
-<!-- .slide: data-state="gradient-2" -->
+<!-- .slide: data-state="white-h2 gradient-2" -->
 ## Random Colored Slide
 
 ---
