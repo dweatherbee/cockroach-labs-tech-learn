@@ -1,4 +1,4 @@
-<!-- .slide: data-background="#00FCED" -->
+<!-- .slide: data-state="gradient-8" -->
 ## Branded Code Examples et al. 
 
 ---
@@ -25,7 +25,7 @@ Integer nunc leo, ultrices sit amet risus vel, ultricies faucibus enim. Sed mi l
 
 ---
 
-<!-- .slide: data-background="#C2D5FF" -->
+<!-- .slide: data-state="gradient-7" -->
 ## Code Examples 
 
 ---
@@ -117,7 +117,7 @@ val source: Source[String, NotUsed] = Source.repeat(
 
 ---
 
-<!-- .slide: data-background="#C2D5FF" -->
+<!-- .slide: data-state="gradient-2" -->
 ## Random Colored Slide
 
 ---
